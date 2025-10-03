@@ -15,8 +15,9 @@ body {
 }
 
 main {
-  flex: 1 1 auto;
+  flex: 1;
 }
+
 
 .container {
   display: flex;
@@ -28,11 +29,11 @@ main {
 }
 
 .col-1 {
-  flex: 0 0 240px;
+  flex-basis: 240px;
 }
 
 .col-2 {
-  flex: 1 1 0;
+  flex: 1;
   background-color: #eee;
 }
 

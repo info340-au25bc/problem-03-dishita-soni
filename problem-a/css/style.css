@@ -7,7 +7,7 @@ path {
     stroke-width: 8px;
 }
 
- .small {
+.small {
     fill: white;
 } 
 
@@ -15,13 +15,16 @@ g .small {
     fill: #573d29;
 }
 
-g > * {
+g > *,
+#interactive {
     fill: #c0c0c0;
+}
+
+g > * {
     stroke: none;
 }
 
 #interactive {
-    fill: #c0c0c0;
     stroke: #bd250d;
     stroke-width: 4px;
 }
@@ -30,12 +33,12 @@ g > * {
     fill: #bd250d;
 }
 
-#rect {
-    opacity: 1;
-}
-
 rect {
     opacity: 0;
+}
+
+#rect {
+    opacity: 1;
 }
 
 path:last-of-type {
